@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suiteTest">
+    <test name="login">
+        <classes>
+            <class name="com.imooc.suite.SuiteConfig"/>
+            <class name="com.imooc.suite.LoginTest"/>
+<!--            <class name="com.imooc.suite.PayTest"/>-->
+        </classes>
+    </test>
+    <test name="pay">
+        <classes>
+            <class name="com.imooc.suite.SuiteConfig"/>
+            <!--            <class name="com.imooc.suite.LoginTest"/>-->
+            <class name="com.imooc.suite.PayTest"/>
+        </classes>
+    </test>
+</suite>

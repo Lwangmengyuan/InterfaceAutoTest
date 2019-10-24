@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="parameter">
+    <test name="data">
+        <classes>
+            <parameter name="Name" value="lily"/>
+            <parameter name="Age" value="18"/>
+            <class name="com.imooc.parameter.ParameterTestOnXml"/>
+        </classes>
+    </test>
+</suite>

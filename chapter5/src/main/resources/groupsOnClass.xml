@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="groups">
+    <test name="all">
+        <classes>
+            <class name="com.imooc.groups.GroupsOnClass1"/>
+            <class name="com.imooc.groups.GroupsOnClass2"/>
+            <class name="com.imooc.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+    <test name="only">
+        <groups>
+            <run>
+                <include name="teacher"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.imooc.groups.GroupsOnClass1"/>
+            <class name="com.imooc.groups.GroupsOnClass2"/>
+            <class name="com.imooc.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+</suite>

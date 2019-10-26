@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="extentReport">
+    <test name="report_test">
+        <classes>
+            <class name="com.practice.ExtentReportTest">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="logDemo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+<!--        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+<!--        <listener class-name="com.practice.MyExtentReportListener"></listener>-->
+        <listener class-name="com.practice.MyExtentTestNgFormatter"></listener>
+    </listeners>
+</suite>

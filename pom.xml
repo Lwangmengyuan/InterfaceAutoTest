@@ -27,6 +27,7 @@
         <module>Chapter6</module>
         <module>Chapter9</module>
         <module>Chapter10</module>
+        <module>Chapter11</module>
     </modules>
 
     <!-- Inherit defaults from Spring Boot -->

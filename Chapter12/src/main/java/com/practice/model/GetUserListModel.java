@@ -1,6 +1,7 @@
 package com.practice.model;
 
-public class GetUserListCase {
+public class GetUserListModel {
+    private int id;
     private int user_id;
     private String username;
     private String password;

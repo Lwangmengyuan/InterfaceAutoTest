@@ -13,7 +13,7 @@ public class ConfigFile {
         //最终测试地址
         String testUrl = "";
         if(name == InterfaceName.LOGIN){
-            uri = bundle.getString("glogin.uri");
+            uri = bundle.getString("login.uri");
         }
         if(name == InterfaceName.UPDATEUSERINFO){
             uri = bundle.getString("updateUserInfo.uri");

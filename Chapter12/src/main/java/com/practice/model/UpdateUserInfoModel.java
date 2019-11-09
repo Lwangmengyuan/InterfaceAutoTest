@@ -3,7 +3,7 @@ package com.practice.model;
 import lombok.Data;
 
 @Data
-public class UpdateUserInfoCase {
+public class UpdateUserInfoModel {
     private int user_id;
     private String username;
     private String password;
